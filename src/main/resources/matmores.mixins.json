@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.name.matmores.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "matmores.refmap.json",
+  "mixins": [
+    "MixinAllTheModiumOre",
+    "MixinAncientStone",
+    "MixinBlockBreak",
+    "MixinUnobtainiumOre",
+    "MixinVibraniumOre"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

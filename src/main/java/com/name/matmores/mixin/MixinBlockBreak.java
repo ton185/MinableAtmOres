@@ -14,9 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinBlockBreak {
     @Inject(at = @At("RETURN"), method = "on(Lnet/minecraftforge/event/level/BlockEvent$BreakEvent;)V", remap = false)
     private static void on(BlockEvent.BreakEvent event, CallbackInfo ci) {
-        Matmores.LOGGER.info("Catch blockbreak");
         if (event.getState().is(TagRegistry.ALLTHEMODIUM_ORE) || event.getState().is(TagRegistry.VIBRANIUM_ORE) || event.getState().is(TagRegistry.UNOBTAINIUM_ORE)) {
-            Matmores.LOGGER.info("Set cancelled false");
             event.setCanceled(false);
         }
     }

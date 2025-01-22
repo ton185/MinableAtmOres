@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 public class MixinAllTheModiumOre {
     @ModifyConstant(method = "<init>", constant = @Constant(floatValue = -1.0F))
     private static float changeHardness(float hardness) {
-        Matmores.LOGGER.warn("CHANGED HARDNESS");
         return 100f;
     }
 
@@ -25,7 +24,6 @@ public class MixinAllTheModiumOre {
      */
     @Overwrite(remap = false)
     public boolean canEntityDestroy(BlockState state, BlockGetter world, BlockPos pos, Entity player) {
-        Matmores.LOGGER.warn(String.valueOf(state.getDestroySpeed(world, pos)));
         return true;
     }
 }

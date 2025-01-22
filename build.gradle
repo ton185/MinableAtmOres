@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'idea'
-    id 'net.neoforged.moddev' version '2.0.56-beta'
+    id 'net.neoforged.moddev' version '2.0.75'
 }
 
 version = mod_version
@@ -120,6 +120,7 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     implementation "curse.maven:allthemodium-364466:6092093"
+
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

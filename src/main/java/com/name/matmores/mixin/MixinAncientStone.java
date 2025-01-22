@@ -1,7 +1,6 @@
 package com.name.matmores.mixin;
 
 import com.thevortex.allthemodium.blocks.AncientStone;
-import com.thevortex.allthemodium.blocks.Unobtainium_Ore;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.BlockGetter;

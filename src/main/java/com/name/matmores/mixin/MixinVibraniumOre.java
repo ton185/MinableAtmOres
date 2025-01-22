@@ -1,6 +1,5 @@
 package com.name.matmores.mixin;
 
-import com.thevortex.allthemodium.blocks.Unobtainium_Ore;
 import com.thevortex.allthemodium.blocks.Vibranium_Ore;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;

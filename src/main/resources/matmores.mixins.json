@@ -6,7 +6,6 @@
   "refmap": "matmores.refmap.json",
   "mixins": [
     "MixinAllTheModiumOre",
-    "MixinAncientStone",
     "MixinBlockBreak",
     "MixinUnobtainiumOre",
     "MixinVibraniumOre"

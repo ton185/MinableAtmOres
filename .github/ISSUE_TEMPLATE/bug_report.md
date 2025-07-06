@@ -23,6 +23,10 @@ A clear and concise description of what you expected to happen.
 **Actual result**
 What actually happened and how it differed from what you expected.
 
+**Mod Versions**
+Enter the exact version of AllTheModium and MinableAtmOres used when encountering the bug.
+Additionally, if you are using a Modpack, write the modpack's name.
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 

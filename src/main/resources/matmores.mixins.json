@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.name.matmores.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "MixinATMBlocks",
+    "MixinATMEventListener",
+    "MixinModiumOreBlock"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
